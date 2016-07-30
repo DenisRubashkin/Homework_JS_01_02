@@ -1,0 +1,51 @@
+ 
+
+.demo-panel {
+  background-color: rgba(0, 0, 0, 0);
+  height: 150px;
+  width: 400px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.demo-panel__button--left {
+  border-radius: 90px;
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 50%;
+  width: 180px;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translate(0, -50%);
+  cursor: pointer;
+}
+
+.demo-panel__button--right {
+  border-radius: 90px;
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 50%;
+  width: 180px;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translate(0, -50%);
+  cursor: pointer;
+}
+
+.demo-panel__button-caption {
+  color: darkorange;
+  text-transform: uppercase;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  vertical-align: middle;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translate(0, -50%);
+  cursor: pointer;
+}
